@@ -1,0 +1,11 @@
+Component	Requirement	Notes
+Operating System	Linux (Ubuntu 24.04 LTS recommended)	Any modern Linux distribution works, but Ubuntu LTS is preferred.
+Java Development Kit	OpenJDK 17 or Oracle JDK 17	Required for building and running the Java backend.
+Apache Maven	Maven 3.8.x or above	Used to build the DSpace backend.
+Apache Ant	Ant 1.10.x or later	Required for certain build and deployment tasks.
+Database	PostgreSQL 14.x – 17.x	PostgreSQL is the only supported database.
+	(with pgcrypto extension)	
+Apache Solr	Solr 9.x or newer	Provides search and indexing capabilities.
+Apache Tomcat	Tomcat 10.1.x	Required to deploy the DSpace REST API.
+Git	Latest version	Used to clone DSpace source code.
+(Optional) GeoIP Database	IP-to-City database	Used for location-based statistics in DSpace.
